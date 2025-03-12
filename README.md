@@ -14,3 +14,11 @@ A sleek React app to build and track daily habits with a modern dark theme.
 1. Clone: `git clone https://github.com/zubenkoruslan/habit-tracker.git`
 2. Install: `npm install`
 3. Run: `npm run dev`
+
+## Stack
+ - React 18 (Vite).
+ - Zustand (state management).
+ - Tailwind CSS.
+ - Chart.js + react-chartjs-2 (line chart).
+ - react-calendar-heatmap (heatmap visualization).
+ - Vitest (testing).
