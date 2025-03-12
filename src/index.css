@@ -4,4 +4,16 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  background-color: #1F2937; /* Gray-800 */
+  color: #F3F4F6; /* Gray-100 */
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
 }
