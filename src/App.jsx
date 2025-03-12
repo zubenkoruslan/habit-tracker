@@ -9,12 +9,15 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col md:flex-row">
       {/* Header/Sidebar */}
-      <aside className="w-full md:w-64 bg-gray-900 p-6 flex-shrink-0 md:h-screen">
-        <div className="flex flex-col md:flex-col items-center md:items-start">
-          <h1 className="text-3xl font-bold text-cyan-400 mb-4 md:mb-6">Habit Tracker</h1>
-          <p className="text-gray-400 mb-4 md:mb-8 text-center md:text-left">Build your daily streaks</p>
+      <aside className="w-full md:w-64 bg-gray-900 p-6 flex-shrink-0 md:h-screen md:overflow-y-auto">
+        <div className="flex flex-col md:flex-col items-center md:items-start space-y-6 md:space-y-8">
+          <h1 className="text-3xl font-bold text-cyan-400">Habit Tracker</h1>
+          <p className="text-gray-400 text-center md:text-left">Build your daily streaks</p>
           <div className="w-full max-w-xs md:max-w-none">
             <HabitForm />
+          </div>
+          <div className="w-full max-w-xs md:max-w-none">
+            <Quote />
           </div>
         </div>
       </aside>
@@ -26,7 +29,6 @@ export default function App() {
             <HabitHeatmap />
             <HabitChart />
           </div>
-          <Quote />
         </div>
       </main>
     </div>
