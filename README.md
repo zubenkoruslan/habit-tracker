@@ -24,4 +24,4 @@ A sleek React app to build and track daily habits with a modern dark theme.
  - Vitest (testing).
 
 ## UI
-![Screenshot](./app-screenshot.png)
+![Screenshot](/app-screenshot.png)
