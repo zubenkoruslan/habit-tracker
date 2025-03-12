@@ -22,3 +22,6 @@ A sleek React app to build and track daily habits with a modern dark theme.
  - Chart.js + react-chartjs-2 (line chart).
  - react-calendar-heatmap (heatmap visualization).
  - Vitest (testing).
+
+## UI
+![Screenshot](.app-screenshot.png)
